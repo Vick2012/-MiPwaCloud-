@@ -3,6 +3,8 @@
 Lista de tareas que funciona sin conexión gracias a un Service Worker. Se creó en el Lab 5
 (Service Worker) y en el Lab 7 (Cloud Computing) se publica en **Vercel**, un PaaS gratuito.
 
+**App publicada:** https://mi-pwa-cloud.vercel.app
+
 **Nuevas Tecnologías del Desarrollo · Universidad Manuela Beltrán**
 Julián Lozano Ríos · Miguel Ángel Jara · Víctor Alfonso Alarcón O.
 
