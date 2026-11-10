@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f3d6e">
+  <title>Agenda UMB - PWA Grupo 7</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="/icons/icon-192.png">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <img src="/icons/icon-192.png" alt="Logo Agenda UMB" width="48" height="48">
+    <div>
+      <h1>Agenda UMB</h1>
+      <p>PWA con Service Worker · Grupo 7 · Estrategia Network-First</p>
+    </div>
+    <span id="estado" class="estado">Comprobando…</span>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Mis tareas</h2>
+      <form id="form-tarea">
+        <input id="texto-tarea" type="text" placeholder="Ej: Entregar Lab 5 de Nuevas Tecnologías" required>
+        <button type="submit">Agregar</button>
+      </form>
+      <ul id="lista-tareas"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Estado de la PWA</h2>
+      <p>Service Worker: <strong id="sw-estado">registrando…</strong></p>
+      <p>Hora de carga de la página: <strong id="hora-carga"></strong></p>
+      <button id="btn-notificar" type="button">Probar notificación</button>
+    </section>
+  </main>
+
+  <footer>Nuevas Tecnologías del Desarrollo · Universidad Manuela Beltrán</footer>
+  <script src="/app.js"></script>
+</body>
+</html>

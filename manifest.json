@@ -1,0 +1,15 @@
+{
+  "name": "Agenda UMB - PWA Grupo 7",
+  "short_name": "Agenda UMB",
+  "description": "Lista de tareas que funciona sin conexión gracias a un Service Worker.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#eef2f7",
+  "theme_color": "#0f3d6e",
+  "lang": "es",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
